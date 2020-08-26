@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:fontFamily="sans-serif"
+        android:padding="50dp"
+        android:text="@string/number"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:tag="0"
+        android:onClick="Go"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:fontFamily="sans-serif"
+        android:padding="50dp"
+        android:text="@string/family_members"
+        android:tag="1"
+        android:onClick="Go"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:fontFamily="sans-serif"
+        android:padding="50dp"
+        android:text="@string/colors"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:tag="2"
+        android:onClick="Go"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:fontFamily="sans-serif"
+        android:padding="50dp"
+        android:text="@string/phrases"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:tag="3"
+        android:onClick="Go"
+        android:textStyle="normal" />
+</LinearLayout>

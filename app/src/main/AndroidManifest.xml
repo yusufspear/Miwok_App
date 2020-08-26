@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mix_language">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+        <activity android:name="com.example.mix_language.Phrases"
+            android:label="@string/phrases"/>
+        <activity android:name="com.example.mix_language.Colors"
+            android:label="@string/colors"/>
+        <activity android:name="com.example.mix_language.Family_Members"
+            android:label="@string/family_members"/>
+        <activity android:name="com.example.mix_language.Numbers"
+            android:label="@string/number"/>
+        <activity android:name="com.example.mix_language.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
