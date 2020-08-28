@@ -1,0 +1,3 @@
+[submodule "Miwok_App"]
+	path = Miwok_App
+	url = https://github.com/yusufspear/Miwok_App.git

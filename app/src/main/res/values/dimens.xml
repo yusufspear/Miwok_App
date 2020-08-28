@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="itemListView_Height">88dp</dimen>
+    <dimen name="itemListView_Padding">16dp</dimen>
+</resources>
