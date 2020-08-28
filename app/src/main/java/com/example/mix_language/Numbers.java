@@ -23,11 +23,11 @@ public class Numbers extends AppCompatActivity {
         listView=findViewById(R.id.listView);
 //        gridView=findViewById(R.id.gridView);
 
-        arrayList.add(new Word("One","lutti"));
-        arrayList.add(new Word("Two","2 lutti"));
-        arrayList.add(new Word("Three","3 lutti"));
-        arrayList.add(new Word("Four","4 lutti"));
-        arrayList.add(new Word("Five","5 lutti"));
+        arrayList.add(new Word("One","lutti",R.drawable.number_one));
+        arrayList.add(new Word("Two","2 lutti",R.drawable.number_two));
+        arrayList.add(new Word("Three","3 lutti",R.drawable.number_three));
+        arrayList.add(new Word("Four","4 lutti",R.drawable.number_four));
+        arrayList.add(new Word("Five","5 lutti",R.drawable.number_five));
 
 
         WordAdapter adapter=new WordAdapter(this,arrayList);

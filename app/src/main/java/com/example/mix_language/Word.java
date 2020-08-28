@@ -1,21 +1,27 @@
 package com.example.mix_language;
 
-import android.content.Context;
-import android.graphics.Color;
-import android.util.AttributeSet;
-import android.view.View;
-import android.widget.TextView;
-
-import androidx.annotation.Nullable;
-
 public class Word{
     private String mDefaultTranslation;
     private String mMiwokTranslation;
+    private int imageResourceID = -1;
 
 
     public Word(String mDefaultTranslation, String mMiwokTranslation) {
         this.mDefaultTranslation = mDefaultTranslation;
         this.mMiwokTranslation = mMiwokTranslation;
+    }
+    public Word(String mDefaultTranslation, String mMiwokTranslation, int getImageResourceID) {
+        this.mDefaultTranslation = mDefaultTranslation;
+        this.mMiwokTranslation = mMiwokTranslation;
+        this.imageResourceID =getImageResourceID;
+    }
+
+    public int getImageResourceID() {
+        return imageResourceID;
+    }
+
+    public void setImageResourceID(int imageResourceID) {
+        this.imageResourceID = imageResourceID;
     }
 
     public String getmDefaultTranslation() {
